@@ -1,6 +1,6 @@
-    .vscode
+   .vscode
     node_modules
     pakage-lock-json
     .env
     client/node_modules
-    client/pakage-lock.json
+   
