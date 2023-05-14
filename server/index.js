@@ -36,7 +36,7 @@ app.listen(PORT, () => {
 const Username = process.env.DB_USERNAME;
 const Password = process.env.DB_PASSWORD;
 
-const URL = process.env.MONGODB_URI || `mongodb+srv://${Username}:${Password}@cluster0.rl5ofk6.mongodb.net/`
+const URL =`mongodb+srv://${Username}:${Password}@cluster0.rl5ofk6.mongodb.net/`
 
 Connection(URL);
 
