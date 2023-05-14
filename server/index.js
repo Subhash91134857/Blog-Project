@@ -33,10 +33,7 @@ const PORT = process.env.PORT||8000;
 app.listen(PORT, () => {
     console.log(`Server is running successfully on ${PORT}`);
 })
-const Username = process.env.DB_USERNAME;
-const Password = process.env.DB_PASSWORD;
 
-const URL =`mongodb+srv://${Username}:${Password}@cluster0.rl5ofk6.mongodb.net/`
-
+const URL = process.env.DATABASE_URL;
 Connection(URL);
 
