@@ -2,7 +2,7 @@ import axios from "axios"
 import { API_NOTIFICATION_MESSAGE, SERVICE_URLS } from "../constants/config"
 import { getAccessToken,getType } from "../utils/common-utils"
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://techblogapps.onrender.com';
 const axiosInstance = axios.create({
     baseURL: API_URL,
     timeout: 10000,
