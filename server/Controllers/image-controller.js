@@ -1,8 +1,9 @@
 import grid from "gridfs-stream"
 import mongoose from "mongoose";
+import dotenv from "dotenv"
+dotenv.config();
 
-
-const url = "https://techblogapps.onrender.com";
+const url =process.env.PORT||8000;
 
 let gfs; var gridfsBucket;
 
